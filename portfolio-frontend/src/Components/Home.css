@@ -1,0 +1,127 @@
+.home{
+    background-image: url('https://png.pngtree.com/png-vector/20220727/ourmid/pngtree-abstract-gradient-shape-radial-blur-effect-02-png-image_6085737.png');
+background-repeat: no-repeat;
+background-position: right center;
+background-size: contain;
+animation: slideIn 2s ease-in-out;
+}
+@keyframes slideIn {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+.animated-image {
+    width: 100%;
+    animation: moveUpDown 3s infinite;}
+
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.typing-animation {
+    overflow: hidden;
+    border-right: 1px solid purple;
+    white-space: nowrap;
+    margin: 0;
+    width: 310px;
+    animation: typing 4s steps(30, end), blink-caret 0.5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 310px;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color:purple; /* Adjust the border color */
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .typing-animation {
+      width: 100%; /* Adjust to fit the smaller screen width */
+      animation: typing-small 4s steps(30, end), blink-caret 0.5s step-end infinite;
+    }
+  
+    @keyframes typing-small {
+        from {
+            width: 0;
+          }
+      to {
+        width: 250px;
+      }
+    }
+  }
+/* about */
+.abt{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/029/868/203/original/abstract-blur-purple-sphere-light-element-png.png');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+.dev{
+width: 100%;
+border-radius:50%;
+position: relative;
+}
+.bubble{
+  position: absolute;
+  width: 20%;
+  max-width: auto;
+  margin-top: 20%;
+}
+
+/* skills */
+.arr-head{
+  transform: rotate(180deg);
+}
+.skill:hover{
+  transform: scale(1.10); 
+  transition: transform 0.3s ease;
+}
+/* work */
+.work-card:hover{
+  background-color:rgb(40, 166, 238);
+  color: white;
+  transform: scale(1.05); 
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+/* contact */
+.ast-sit {
+  width: 100%;
+  animation: moveUpDown 3s infinite;}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

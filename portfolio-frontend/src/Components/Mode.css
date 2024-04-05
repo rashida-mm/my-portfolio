@@ -1,0 +1,53 @@
+.dark {
+    background-color:#0C090D;
+  }
+  .dark i{
+    color: white;
+  }
+  .dark a {
+    color: white;
+  }
+  .dark p {
+    color: white;
+    border-left: white;
+  }
+  .dark h1{
+    color: white;
+  }
+  .dark h2{
+    color: white;
+  }
+  .dark h6{
+    color: white;
+  }
+  .dark .work-card{
+    background-color: #333;
+    color: white;
+  }
+  .dark .footer {
+    color: white; 
+  }
+  /* .dark .contact{
+    background-color: #16071D;
+  } */
+  .light {
+    background-color: #fff;
+    color: #333;
+  }
+  .light .navbar {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+  }
+  .dark .navbar {
+    position: fixed;
+    top: 0;
+    background-color:#0C090D ;
+    z-index: 1000; /* Adjust z-index as needed */
+  }
+  .dark .work-card:hover{
+    background-color: rgb(40, 166, 238);
+    color: white;
+  }
+  
